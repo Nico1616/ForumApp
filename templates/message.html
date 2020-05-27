@@ -1,9 +1,17 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
 
-{% block title %}Message{% endblock %}
+<html>
+  
+  <head>
+      <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
+  </head>
 
-{% block content %}
-  <p>{{ message }}</p>
-
-
-{% endblock %}
+  <body>
+  
+    <p>{{ message }}</p>
+    
+    <a href="/">Home</a>
+    
+  </body>
+  
+</html>
