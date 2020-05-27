@@ -1,7 +1,12 @@
-body {
-
+body{
+  background-color: green;
 }
 
-#content {
-     margin-left: 20px;
+.post{
+  margin: 50px 50px 50px 50px;
+}
+
+.paragraphPost{
+  height:75px;
+  overflow: scroll;
 }
